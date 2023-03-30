@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: 'Kanit', sans-serif;
+    background-image: url('Images/paperTexture.jpg');
 }
 .layout {
     display: flex;
@@ -165,7 +166,7 @@ header p {
 .formatExplainer {
     margin: 50px 0px;
     max-width: 740px;
-    background-image: url('/Images/paperTexture.png');
+    background-image: url('Images/paperTexture.jpg');
     box-shadow: 0px 10px 100px rgba(34, 34, 34, 0.115);
     padding: 10px 30px;
     border-radius: 25px;
@@ -193,7 +194,7 @@ thead {
 }
 .column {
     text-align: right;
-    background-image: url('/Images/paperTexture.png');
+    background-image: url('Images/paperTexture.jpg');
     font-style: oblique;
     font-weight: 600;
 }
