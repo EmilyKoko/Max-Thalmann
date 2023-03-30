@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: 'Kanit', sans-serif;
-    background-image: url('Images/paperTexture.jpg');
+    background-image: url('../Images/paperTexture.png');
 }
 .layout {
     display: flex;
@@ -194,7 +194,7 @@ thead {
 }
 .column {
     text-align: right;
-    background-image: url('Images/paperTexture.jpg');
+    background-image: url('../Images/paperTexture.png');
     font-style: oblique;
     font-weight: 600;
 }
