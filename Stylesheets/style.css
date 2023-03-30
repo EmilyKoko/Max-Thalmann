@@ -78,6 +78,9 @@ body {
     #artMosaic img {
         max-width: 400px;
     }
+    header {
+        flex-direction: column;
+    }
 }
 
 
@@ -297,6 +300,7 @@ footer p {
     position: relative;
     display: inline-block;
     width: auto;
+    max-width: 95vw;
     margin: 10px;
     transition: scale 0.1s ease-in-out;
 }
