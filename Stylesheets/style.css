@@ -171,6 +171,11 @@ header p {
     padding: 10px 30px;
     border-radius: 25px;
 }
+.formatExplainer a {
+    text-decoration: underline;
+    color: #88220d;
+    font-weight: 600;
+}
 #tableContainer {
     box-shadow: 0px 10px 100px rgba(34, 34, 34, 0.115);
     border-radius: 25px;
