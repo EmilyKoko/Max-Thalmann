@@ -273,12 +273,16 @@ footer p {
 
 
 /**styling the art page**/
+#artMosaicContainer {
+    display: flex;
+    justify-content: center;
+}
 #artMosaic {
-    margin-bottom: 70px;
+    margin-bottom: 100px;
     display: inline-block;
     flex-direction: column;
     text-align: center;
-    max-width: 94vw;
+    max-width: 90vw;
 }
 #artMosaic img {
     display: block;
@@ -290,39 +294,27 @@ footer p {
     display: inline-block;
     width: auto;
     margin: 10px;
+    transition: scale 0.1s ease-in-out;
+
 }
+
 #artMosaic figcaption {
     max-width: 100%;
     position: absolute;
-    bottom: 0;
-    background-color: rgba(136, 34, 13, 0);
+    bottom: -100;
+    background-color: rgb(136, 34, 13);
     font-size: 24px;
-    color: #ffffff00;
+    color: #ffffff;
     width: 100%;
-}
-figure:hover figcaption {
-    background-color: rgba(136, 34, 13, .85);
-    color: white;
-}
-figure:hover img {
-    max-width: 70vw;
-    max-height: 70vh;
+    opacity: 0;
+    transition: opacity 0.2s ease-in-out;
 }
 
-/**add interactivity with captions on hover for art page**/
-/**
+#artMosaic figure:hover figcaption {
+    opacity: 1;
+}
 
-#artMosaic img:hover {
-    max-width: 70vw;
-    max-height: 70vh;
+#artMosaic figure:hover {
+    scale: 150%;
+    z-index: 1;
 }
-.mosaicImageOverlay {
-    display: inline-block;
-    background-color: rgba(240, 227, 208, 0);
-    padding: 5px;
-    color: rgba(240, 227, 208, 0);
-}
-.mosaicImageOverlay:hover {
-    background-color: rgb(240, 227, 208);
-    color: black;
-}**/
